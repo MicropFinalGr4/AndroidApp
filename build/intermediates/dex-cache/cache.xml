@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Francis\GitProjects\School\Microprocessors\BluetoothLE\Application\build\intermediates\exploded-aar\com.android.support\support-v13\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="076c7d9e22cc325b8008ff799e0c06dfb8eefdf3">
+        <dex dex="C:\Users\Francis\GitProjects\School\Microprocessors\BluetoothLE\Application\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-808eb7e7e30e1d57ab421479a667f864b617144c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Francis\GitProjects\School\Microprocessors\BluetoothLE\Application\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="C:\Users\Francis\GitProjects\School\Microprocessors\BluetoothLE\Application\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-a5e4ee6299fec6d6758330d08acb6aae6b77f979.jar" />
+    </item>
+    <item
+        jar="C:\Users\Francis\GitProjects\School\Microprocessors\BluetoothLE\Application\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d96886efea7cc74fbb3abd0e3b51d5638fc57be0">
+        <dex dex="C:\Users\Francis\GitProjects\School\Microprocessors\BluetoothLE\Application\build\intermediates\pre-dexed\debug\classes-914b0b584187d25d7beafbb3bb6442526ce545df.jar" />
+    </item>
+    <item
+        jar="C:\Users\Francis\GitProjects\School\Microprocessors\BluetoothLE\Application\build\intermediates\exploded-aar\com.android.support\support-v13\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1a57337a520bf40b9ad1e074cb780527dffa1aac">
+        <dex dex="C:\Users\Francis\GitProjects\School\Microprocessors\BluetoothLE\Application\build\intermediates\pre-dexed\debug\classes-0779c6ae8ca4444a091088835174c36f11cc2942.jar" />
+    </item>
+    <item
+        jar="C:\Users\Francis\GitProjects\School\Microprocessors\BluetoothLE\Application\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="C:\Users\Francis\GitProjects\School\Microprocessors\BluetoothLE\Application\build\intermediates\pre-dexed\debug\classes-a7e88352671c082ed7ef417ba328bcaff750d8e3.jar" />
+    </item>
+    <item
+        jar="C:\Program Files (x86)\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="C:\Users\Francis\GitProjects\School\Microprocessors\BluetoothLE\Application\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-a251b75a5ef6f265d22ca5bee22db19401679737.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="unavailable_red">#ff5252</color>
+    <color name="available_green">#00c853</color>
+
+</resources>
