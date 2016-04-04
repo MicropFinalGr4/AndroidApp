@@ -17,6 +17,8 @@ import android.widget.Toast;
 
 public class LauncherActivity extends Activity {
 
+    //Dev
+    boolean testing = true;
     //UI handles
     TextView device_status_tv;
     Button scan_btn;
@@ -90,11 +92,33 @@ public class LauncherActivity extends Activity {
     }
 
     public void connectClicked(View v){
-        if (scanning) {
-            mBluetoothAdapter.stopLeScan(mLeScanCallback);
-            scan_btn.setText(R.string.btn_scan);
-            scan_btn.setEnabled(true);
-            scanning = false;
+        if (testing){
+            final Intent intent = new Intent(this, ConnectedDevice.class);
+            intent.putExtra("device_name", "test name");
+            intent.putExtra("device_address", "12:43:55:78:AA:09");
+
+            if (scanning) {
+                mBluetoothAdapter.stopLeScan(mLeScanCallback);
+                scan_btn.setText(R.string.btn_scan);
+                scan_btn.setEnabled(true);
+                scanning = false;
+            }
+
+            startActivity(intent);
+        } else {
+            if (target_device == null) return;
+            final Intent intent = new Intent(this, ConnectedDevice.class);
+            intent.putExtra("device_name", target_device.getName());
+            intent.putExtra("device_address", target_device.getAddress());
+
+            if (scanning) {
+                mBluetoothAdapter.stopLeScan(mLeScanCallback);
+                scan_btn.setText(R.string.btn_scan);
+                scan_btn.setEnabled(true);
+                scanning = false;
+            }
+
+            startActivity(intent);
         }
     }
 

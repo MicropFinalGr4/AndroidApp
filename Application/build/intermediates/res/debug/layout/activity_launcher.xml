@@ -72,7 +72,7 @@
             android:id="@+id/connect_btn"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
-            android:enabled="false"
+            android:enabled="true"
             android:onClick="connectClicked" />
 
     </LinearLayout>
