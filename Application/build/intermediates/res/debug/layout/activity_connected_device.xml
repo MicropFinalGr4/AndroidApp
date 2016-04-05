@@ -127,6 +127,43 @@
             android:layout_height="wrap_content"
             android:text="All LEDs OFF"
             android:id="@+id/led_all_off_b" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="0"
+                android:id="@+id/debug_text_1"
+                android:layout_margin="10dp"
+                android:background="#000000"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="0"
+                android:id="@+id/debug_text_2"
+                android:layout_margin="10dp"
+                android:background="#000000"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="0"
+                android:id="@+id/debug_text_3"
+                android:layout_margin="10dp"
+                android:background="#000000"
+                android:textColor="#ffffff" />
+        </LinearLayout>
     </LinearLayout>
 
 </LinearLayout><!-- From: file:/C:/Users/Francis/GitProjects/School/Microprocessors/BluetoothLE/Application/src/main/res/layout/activity_connected_device.xml -->

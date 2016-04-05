@@ -37,26 +37,23 @@
     <application
         android:label="@string/app_name"
         android:theme="@android:style/Theme.Material">
-        <activity android:name=".LauncherActivity">
+
+        <activity android:name="com.example.android.activities.LauncherActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DebugLauncher">
-            <!--<intent-filter>-->
-                <!--<action android:name="android.intent.action.MAIN" />-->
-                <!--<category android:name="android.intent.category.LAUNCHER" />-->
-            <!--</intent-filter>-->
-        </activity>
-        <activity
-            android:name=".DeviceScanActivity"
+       
+        <activity android:name="com.example.android.activities.DeviceScanActivity"
             android:label="@string/app_name"/>
-        <activity android:name=".DeviceControlActivity" />
-        <activity android:name=".ConnectedDevice" />
+
+        <activity android:name="com.example.android.activities.DeviceControlActivity" />
+
+        <activity android:name="com.example.android.activities.ConnectedDeviceActivity" />
 
         <service
-            android:name=".BluetoothLeService"
+            android:name="com.example.android.managers.BluetoothLeService"
             android:enabled="true" />
 
     </application>

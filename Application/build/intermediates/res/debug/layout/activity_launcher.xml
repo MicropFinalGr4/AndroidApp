@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.android.bluetoothlegatt.LauncherActivity">
+    tools:context="com.example.android.activities.LauncherActivity">
 
     <LinearLayout
         android:orientation="vertical"
@@ -74,6 +74,14 @@
             android:paddingRight="20dp"
             android:enabled="true"
             android:onClick="connectClicked" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="All Device Scanner (debug)"
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal"
+            android:onClick="allDeviceScannerClicked" />
 
     </LinearLayout>
 
